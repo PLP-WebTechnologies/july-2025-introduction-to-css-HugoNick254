@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model & Layout Demo</title>
+    <!-- Link to our external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Awesome Web Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <h2>Welcome to the Box Model Playground!</h2>
+            <p>Here, we'll explore how elements take up space on a webpage using margin, padding, and borders. Visualize how these properties affect layout by observing the background colors.</p>
+            <button class="call-to-action">Learn More About Layout</button>
+        </section>
+
+        <section id="about" class="container">
+            <h3>Understanding the Box Model 📦</h3>
+            <div class="card">
+                <h4>Content Area</h4>
+                <p>This is where your actual content (text, images, etc.) lives. It's the innermost part of the box.</p>
+            </div>
+            <div class="card">
+                <h4>Padding</h4>
+                <p>Padding is the space *between* the content and the border. It pushes the border outwards from the content.</p>
+            </div>
+            <div class="card">
+                <h4>Border</h4>
+                <p>The border is a line that goes around the padding and content. You can style its width, style (solid, dashed), and color.</p>
+            </div>
+            <div class="card">
+                <h4>Margin</h4>
+                <p>Margin is the space *outside* the border. It creates space between the element's border and other elements around it.</p>
+            </div>
+        </section>
+
+        <section id="features" class="container">
+            <h3>Features of Our Demo ✨</h3>
+            <div class="feature-grid">
+                <article class="feature-item">
+                    <h4>Responsive Design</h4>
+                    <p>Observe how elements adjust on different screen sizes (though not explicitly styled for this here, the concepts apply!).</p>
+                    <button>View Details</button>
+                </article>
+                <article class="feature-item">
+                    <h4>Clear Structure</h4>
+                    <p>Semantic HTML5 elements like `header`, `main`, `section`, `article`, and `footer` are used for better organization.</p>
+                    <button>Read Guide</button>
+                </article>
+                <article class="feature-item">
+                    <h4>Basic Styling</h4>
+                    <p>We're using simple CSS to make things look neat and demonstrate styling principles.</p>
+                    <button>Explore CSS</button>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Box Model Demo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
